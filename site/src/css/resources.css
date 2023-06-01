@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+:root {
+    --main-font: 'Montserrat', sans-serif;
+    --second-font: 'Noto Sans', sans-serif;
+    --text-font: 'Chivo', sans-serif;
+    --main-color: #dbae46;
+    --main-color-light: #f0d38f;
+    --main-color-dark: #d69a0d;
+    --second-color: #1e98a8;
+    --second-color-light: #5ad2e7;
+    --second-color-vlight: #b8ddfc;
+    --second-color-dark: #09515a;
+    --black: #252525;
+    --grafite: #353535;
+    --lead: #5c5c5c;
+    --gray: #a3a3a3;
+    --silver: #c4c4c4;
+    --cream: #d9d9d9;
+    --white: #eaeaea;
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    border: var(--main-color);
+
+}
+
+.btn-primary:hover {
+    background-color: var(--main-color-light);
+    border: var(--main-color-light);
+    color: var(--black);
+    transition: 0.5s;
+}
+.btn-secondary {
+    background-color: var(--second-color);
+    border: var(--second-color);
+
+}
+
+.btn-secondary:hover {
+    background-color: var(--second-color-light);
+    border: var(--second-color-light);
+    color: var(--black);
+    transition: 0.5s;
+}
+
+.bg-dark {
+    background-color: var(--black) !important;
+}
+
+.bg-light {
+    background-color: var(--white) !important;
+}
+.bg-primary {
+    background-color: var(--main-color) !important;
+}
+.bg-secondary {
+    background-color: var(--second-color) !important;
+}
+
+.bg-trasnparent {
+    background-color: transparent !important;
+}
+
+
+.text-light {
+    color: var(--white) !important;
+}
+
+.text-dark {
+    color: var(--black) !important;
+}
+
+.text-primary {
+    color: var(--main-color) !important;
+}
+.text-secondary {
+    color: var(--second-color) !important;
+}

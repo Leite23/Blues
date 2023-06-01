@@ -1,0 +1,211 @@
+@import url("resources.css");
+
+
+body {
+  overflow-x: hidden;
+  background-image: url('../assets/bg/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*navbar*/
+
+header{
+  z-index: 1000;
+  background: var(--black);
+  border-radius: 0px 0px 10px 10px;
+}
+
+#headerLogo {
+  width: 60px;
+}
+
+.nav-link {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 36px;
+  /* identical to box height */
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: var(--main-color-dark);
+  transition: 0.5s;
+}
+
+/*caroseul*/
+
+#carouselBox {
+  padding: 0;
+}
+
+#myCarousel {
+  width: 100%;
+  height: 50rem;
+}
+.caroseulImg {
+  width: 100%;
+  height: 50rem;
+}
+
+@media screen and (max-width: 1400px) {
+  #myCarousel {
+    width: 100%;
+    height: 35rem;
+  }
+  .caroseulImg {
+    width: 100%;
+    height: 35rem;
+  }
+}
+.carousel-inner {
+  box-shadow: 2px 2px 4px #252525ad;
+}
+
+.caroseulTxt {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--cream);
+  transition: 0.5s;
+}
+.caroseulTxt:hover {
+  color: var(--black);
+  transition: 0.5s;
+}
+
+/*Second Caroseul*/
+#secondCaroseul .carousel-indicators li {
+  background-color: #bbb;
+  border-color: #bbb;
+}
+
+#secondCaroseul .carousel-indicators .active {
+  background-color: #333;
+  border-color: #333;
+}
+
+/*Cards*/
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.card-body {
+  background-color: var(--black);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 2px 4px #252525ad;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--main-color-dark);
+  font-family: var(--second-font);
+}
+
+.card-text {
+  color: var(--cream);
+  font-family: var(--text-font);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0px 0px;
+  height: 15rem;
+  box-shadow: 2px 2px 4px #252525ad;
+}
+
+.card-img-top-lg {
+  height: 30rem;
+}
+
+.card-lg {
+  width: 40rem;
+}
+
+.card-title-lg {
+  font-family: var(--main-font);
+  color: var(--second-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+/*highlight*/
+
+.title {
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 36px;
+  /* identical to box height */
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 990px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+/*Infomation*/
+
+.lead {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/*Search */
+
+.form-label {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/*Generic Texts*/
+
+.longText {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 36px;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+}
+
+/*Footer*/
+
+#logoFooter {
+  width: 50px;
+}

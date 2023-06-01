@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "https://carlospegoraro.github.io/Blues/site/",
+  "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+  } 
+}
